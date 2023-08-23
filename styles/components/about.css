@@ -5,6 +5,7 @@
     align-items: center;
     margin-top: 5rem;
     width:100%;
+    overflow: hidden;
   
    
 }
@@ -48,6 +49,7 @@
     width: 300px;
     height: 300px;
     margin: auto auto;
+    overflow: hidden;
 }
 
 .about__img{

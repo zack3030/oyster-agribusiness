@@ -3,6 +3,7 @@
     margin-top: 4rem;
     background-color: var(--clr-white);
     color: var(--clr-dark);
+    overflow: hidden;
 
 }
 

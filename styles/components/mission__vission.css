@@ -1,6 +1,7 @@
 .mission__vission{
     margin-top: 2rem;
     color: var(--clr-primary);
+    overflow: hidden;
 }
 
 .mission__vission-title{
@@ -32,6 +33,7 @@ letter-spacing: 0.9;
    height: 9rem;
    width: 19rem;
    margin: 2rem auto;
+   overflow: hidden;
 
 }
 
@@ -79,6 +81,7 @@ content: "";
     height: 9rem;
     width: 19rem;
     margin: 2rem auto;
+    overflow: hidden;
  
  }
  .vission__img::before{
