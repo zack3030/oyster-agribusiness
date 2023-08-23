@@ -1,0 +1,144 @@
+.socials__footer{
+    background-color: var(--clr-primary);
+    color: var(--clr-secondary);
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-right: .3rem;
+    margin-top: 2rem;
+   
+}
+
+.location .location__title{
+    font-size: var(--size-md);
+    text-transform: capitalize;
+    letter-spacing: .5ch;
+    margin: 1rem 0;
+}
+
+.location__address{
+    letter-spacing: 0.2ch;
+    margin-bottom: 1rem ;
+}
+
+.Socials__title{
+    font-size: var(--size-md);
+    text-transform: capitalize;
+    letter-spacing: .5ch;
+    margin: 1rem 0;
+}
+
+.socila__icons{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 1rem ;
+}
+
+.socila__icons:hover{
+    transform: translateY(-3px);
+}
+
+
+@media (min-width:475px){
+
+   
+}
+
+
+@media (min-width:640px){
+    
+}
+
+/*md*/
+@media (min-width:768px){
+    .socials__footer{
+       
+       
+        gap: 8rem;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: .3rem;
+        margin-top: 2rem;
+       
+    }
+    
+    .location .location__title{
+        font-size: var(--size-xl);
+        text-transform: capitalize;
+        letter-spacing: .5ch;
+        margin: 1rem 0;
+    }
+    
+    .location__address{
+        letter-spacing: 0.2ch;
+        margin-bottom: 1rem ;
+        font-size: var(--size-md);
+    }
+    
+    .Socials__title{
+        font-size: var(--size-xl);
+        text-transform: capitalize;
+        letter-spacing: .5ch;
+        margin: 1rem 0;
+    }
+    
+    .socila__icons{
+        width: 24px;
+        height: 24px;
+        margin-bottom: 1rem ;
+        margin-right: 1rem;
+    }
+    
+    
+}
+
+/*lg*/
+@media (min-width:1024px){
+   
+}
+
+/*xl*/
+@media (min-width:1280px){
+    .socials__footer{
+       
+       
+        gap: 8rem;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: .3rem;
+        margin-top: 2rem;
+       
+    }
+    
+    .location .location__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        letter-spacing: .5ch;
+        margin: 1rem 0;
+    }
+    
+    .location__address{
+        letter-spacing: 0.2ch;
+        margin-bottom: 1rem ;
+        font-size: var(--size-xl);
+    }
+    
+    .Socials__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        letter-spacing: .5ch;
+        margin: 1rem 0;
+    }
+    
+    .socila__icons{
+        width: 28px;
+        height: 28px;
+        margin-bottom: 1rem ;
+        margin-right: 2rem;
+    }
+   
+}
