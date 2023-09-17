@@ -1,12 +1,12 @@
-.socials__footer{
+.socials{
     background-color: var(--clr-primary);
     color: var(--clr-secondary);
     display: flex;
-    gap: 2rem;
+    flex-direction: column;
+   
     align-items: center;
     justify-content: center;
-    padding-left: 1rem;
-    padding-right: .3rem;
+   
     margin-top: 2rem;
    
 }
@@ -16,11 +16,13 @@
     text-transform: capitalize;
     letter-spacing: .5ch;
     margin: 1rem 0;
+    align-items: center;
 }
 
 .location__address{
     letter-spacing: 0.2ch;
-    margin-bottom: 1rem ;
+    font-size: var(--size-sm);
+    
 }
 
 .Socials__title{
@@ -28,16 +30,42 @@
     text-transform: capitalize;
     letter-spacing: .5ch;
     margin: 1rem 0;
+    align-items: center;
 }
 
 .socila__icons{
     width: 20px;
     height: 20px;
     margin-bottom: 1rem ;
+    margin-right: 1rem;
 }
 
 .socila__icons:hover{
     transform: translateY(-3px);
+}
+
+.hline{
+    width: 100%;
+    margin: 1rem 0;
+    
+}
+
+.signature{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.zdev{
+    font-size: var(--size-sm);
+}
+
+.rights{
+    font-size: var(--size-sm);
+}
+
+.signature .privacy{
+    display: hidden;
 }
 
 
@@ -53,43 +81,80 @@
 
 /*md*/
 @media (min-width:768px){
+
     .socials__footer{
+        background-color: var(--clr-primary);
+        color: var(--clr-secondary);
+    }
+
+    .socials{
+        background-color: var(--clr-primary);
+        color: var(--clr-secondary);
        
+        flex-direction: row;
        
-        gap: 8rem;
         align-items: center;
-        justify-content: center;
-        padding-left: 1rem;
-        padding-right: .3rem;
+        justify-content: space-evenly;
+       
         margin-top: 2rem;
        
     }
     
     .location .location__title{
-        font-size: var(--size-xl);
+        font-size: var(--size-md);
         text-transform: capitalize;
         letter-spacing: .5ch;
         margin: 1rem 0;
+        align-items: center;
     }
     
     .location__address{
         letter-spacing: 0.2ch;
-        margin-bottom: 1rem ;
-        font-size: var(--size-md);
+        font-size: var(--size-sm);
+        
     }
     
     .Socials__title{
-        font-size: var(--size-xl);
+        font-size: var(--size-md);
         text-transform: capitalize;
         letter-spacing: .5ch;
         margin: 1rem 0;
+        align-items: center;
     }
     
     .socila__icons{
-        width: 24px;
-        height: 24px;
+        width: 20px;
+        height: 20px;
         margin-bottom: 1rem ;
-        margin-right: 1rem;
+        margin-right: 2rem;
+    }
+    
+    .socila__icons:hover{
+        transform: translateY(-3px);
+    }
+    
+    .hline{
+        width: 100%;
+        margin: 1rem 0;
+        
+    }
+    
+    .signature{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .zdev{
+        font-size: var(--size-sm);
+    }
+    
+    .rights{
+        font-size: var(--size-sm);
+    }
+    
+    .signature .privacy{
+        display: hidden;
     }
     
     
@@ -103,42 +168,78 @@
 /*xl*/
 @media (min-width:1280px){
     .socials__footer{
+        background-color: var(--clr-primary);
+        color: var(--clr-secondary);
+    }
+
+    .socials{
+        background-color: var(--clr-primary);
+        color: var(--clr-secondary);
        
+        flex-direction: row;
        
-        gap: 8rem;
         align-items: center;
-        justify-content: center;
-        padding-left: 1rem;
-        padding-right: .3rem;
+        justify-content: space-evenly;
+       
         margin-top: 2rem;
        
     }
     
     .location .location__title{
-        font-size: var(--size-2xl);
+        font-size: var(--size-md);
         text-transform: capitalize;
         letter-spacing: .5ch;
         margin: 1rem 0;
+        align-items: center;
     }
     
     .location__address{
         letter-spacing: 0.2ch;
-        margin-bottom: 1rem ;
-        font-size: var(--size-xl);
+        font-size: var(--size-sm);
+        
     }
     
     .Socials__title{
-        font-size: var(--size-2xl);
+        font-size: var(--size-md);
         text-transform: capitalize;
         letter-spacing: .5ch;
         margin: 1rem 0;
+        align-items: center;
     }
     
     .socila__icons{
-        width: 28px;
-        height: 28px;
+        width: 20px;
+        height: 20px;
         margin-bottom: 1rem ;
         margin-right: 2rem;
+    }
+    
+    .socila__icons:hover{
+        transform: translateY(-3px);
+    }
+    
+    .hline{
+        width: 100%;
+        margin: 1rem 0;
+        
+    }
+    
+    .signature{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .zdev{
+        font-size: var(--size-sm);
+    }
+    
+    .rights{
+        font-size: var(--size-sm);
+    }
+    
+    .signature .privacy{
+        display: hidden;
     }
    
 }

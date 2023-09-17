@@ -55,6 +55,7 @@
 
 .header__link-mobile:hover{
     color: var(--clr-new);
+    transform: translateY(-3px);
 }
 
 .header__line-mobile{

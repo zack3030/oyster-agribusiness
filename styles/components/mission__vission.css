@@ -192,6 +192,8 @@ content: "";
         grid-template-areas: 
         'img1 content1'
         ' content2 img2';
+
+       
     }
     .mission__img1{
         grid-area: img1;

@@ -146,7 +146,7 @@
     
     .cto__btn{
         display: block;
-       
+        font-size: var(--size-sm);
        
         margin-right: 2rem;
     }
@@ -248,12 +248,13 @@
     .cto__btn{
         display: block;
         text-transform: capitalize;
-       
+       font-size: var(--size-sm);
         margin-right: 2rem;
     }
 
     .cto__btn:hover{
         color: var(--clr-new);
+        transform: translateY(-3px);
     }
    
 }
