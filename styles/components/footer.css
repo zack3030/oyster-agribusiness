@@ -11,11 +11,15 @@
    
 }
 
+.location{
+    display: flex;
+    margin: 1rem 0;
+}
+
 .location .location__title{
     font-size: var(--size-md);
     text-transform: capitalize;
     letter-spacing: .5ch;
-    margin: 1rem 0;
     align-items: center;
 }
 
@@ -29,14 +33,18 @@
     font-size: var(--size-md);
     text-transform: capitalize;
     letter-spacing: .5ch;
-    margin: 1rem 0;
+   
     align-items: center;
+}
+
+.Socials{
+    display: flex;
+    margin-bottom: 1rem;
 }
 
 .socila__icons{
     width: 20px;
     height: 20px;
-    margin-bottom: 1rem ;
     margin-right: 1rem;
 }
 
