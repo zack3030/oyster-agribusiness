@@ -13,19 +13,23 @@
 
 .location{
     display: flex;
-    margin: 1rem 0;
+    
+   
 }
 
-.location .location__title{
+ .location__title{
     font-size: var(--size-md);
     text-transform: capitalize;
     letter-spacing: .5ch;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .location__address{
     letter-spacing: 0.2ch;
     font-size: var(--size-sm);
+    align-items: center;
+    margin: 1.2rem 0;
     
 }
 
@@ -119,6 +123,7 @@
     .location__address{
         letter-spacing: 0.2ch;
         font-size: var(--size-sm);
+        margin: 1rem 0;
         
     }
     
@@ -133,6 +138,7 @@
     .socila__icons{
         width: 20px;
         height: 20px;
+        margin-top: 1rem;
         margin-bottom: 1rem ;
         margin-right: 2rem;
     }
@@ -155,6 +161,7 @@
     
     .zdev{
         font-size: var(--size-sm);
+        font-weight: 500;
     }
     
     .rights{
@@ -192,8 +199,11 @@
         margin-top: 2rem;
        
     }
+    .location {
+        align-items: center;
+    }
     
-    .location .location__title{
+     .location__title{
         font-size: var(--size-md);
         text-transform: capitalize;
         letter-spacing: .5ch;
@@ -204,6 +214,7 @@
     .location__address{
         letter-spacing: 0.2ch;
         font-size: var(--size-sm);
+        margin: 1.2rem 0;
         
     }
     
@@ -218,6 +229,7 @@
     .socila__icons{
         width: 20px;
         height: 20px;
+        margin-top: 1rem;
         margin-bottom: 1rem ;
         margin-right: 2rem;
     }
@@ -240,6 +252,7 @@
     
     .zdev{
         font-size: var(--size-sm);
+        font-weight: 600;
     }
     
     .rights{
