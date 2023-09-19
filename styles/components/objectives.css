@@ -189,7 +189,7 @@ padding: 2rem 0;
             border-top: 5px solid var(--clr-new);
             border-left: 5px solid var(--clr-new);
             top: 10px;
-            left: 30rem;
+            left: 25rem;
            }
     
            .objectives__title::after{
@@ -200,7 +200,7 @@ padding: 2rem 0;
             border-bottom: 5px solid var(--clr-new);
             border-right: 5px solid var(--clr-new);
             bottom: 10px;
-            right: 30rem;
+            right: 25rem;
            }
 
            /* cards */

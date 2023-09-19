@@ -6,6 +6,7 @@ import '../styles/components/hero.css'
 import '../styles/components/about.css'
 import '../styles/components/mission__vission.css'
 import '../styles/components/objectives.css'
+import '../styles/components/goals.css'
 import '../styles/components/footer.css'
 import '../styles/utils.css'
 
