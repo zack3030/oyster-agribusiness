@@ -1,6 +1,6 @@
 .mission__vission{
     margin-top: 2rem;
-    color: var(--clr-primary);
+    color: var(--clr-fit);
     overflow: hidden;
 }
 
@@ -21,8 +21,8 @@ padding: 2rem 0;
     position: absolute;
     width: 30px;
     height: 30px;
-    border-top: 5px solid var(--clr-new);
-    border-left: 5px solid var(--clr-new);
+    border-top: 5px solid var(--clr-fit);
+    border-left: 5px solid var(--clr-fit);
     top: 10px;
     left: 2rem;
    }
@@ -32,8 +32,8 @@ padding: 2rem 0;
     position: absolute;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid var(--clr-new);
-    border-right: 5px solid var(--clr-new);
+    border-bottom: 5px solid var(--clr-fit);
+    border-right: 5px solid var(--clr-fit);
     bottom: 10px;
     right: 2rem;
    }
@@ -52,7 +52,7 @@ padding: 2rem 0;
    
 }
 .mission__img{
-   background-image: url("../../images/stu1.jpg");
+   background-image: url("../../images/oy4.jpg");
    background-size: cover;
    position: relative;
    height: 9rem;
@@ -563,8 +563,8 @@ content: "";
             position: absolute;
             width: 30px;
             height: 30px;
-            border-top: 5px solid var(--clr-new);
-            border-left: 5px solid var(--clr-new);
+            border-top: 5px solid var(--clr-fit);
+            border-left: 5px solid var(--clr-fit);
             top: 10px;
             left: 26rem;
            }
@@ -574,8 +574,8 @@ content: "";
             position: absolute;
             width: 30px;
             height: 30px;
-            border-bottom: 5px solid var(--clr-new);
-            border-right: 5px solid var(--clr-new);
+            border-bottom: 5px solid var(--clr-fit);
+            border-right: 5px solid var(--clr-fit);
             bottom: 10px;
             right: 26rem;
            }
@@ -583,7 +583,7 @@ content: "";
 
    
     .mission__img{
-       background-image: url("../../images/stu1.jpg");
+       background-image: url("../../images/oy4.jpg");
        background-size: cover;
        position: relative;
        height: 10rem;

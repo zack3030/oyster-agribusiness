@@ -1,5 +1,5 @@
 .about{
-    background-color: var(--clr-primary);
+    background-color: white;
   
     color: var(--clr-secondary);
     align-items: center;
@@ -20,6 +20,7 @@
     line-height: 0.9;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    color: var(--clr-fit);
     
   
 }
@@ -29,8 +30,8 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    border-top: 5px solid var(--clr-new);
-    border-left: 5px solid var(--clr-new);
+    border-top: 5px solid var(--clr-fit);
+    border-left: 5px solid var(--clr-fit);
     top: 10px;
     left: 5rem;
    }
@@ -40,8 +41,8 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid var(--clr-new);
-    border-right: 5px solid var(--clr-new);
+    border-bottom: 5px solid var(--clr-fit);
+    border-right: 5px solid var(--clr-fit);
     bottom: 10px;
     right: 5rem;
    }
@@ -59,6 +60,9 @@
    margin-top: 2rem;
    margin-left: 2rem;
    margin-right: 1rem;
+   background-color: var(--clr-fit);
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 .about__description{
@@ -351,7 +355,7 @@
        padding-top: 1rem;
        margin-top: 4rem;
         font-size: var(--size-4xl);
-        color: var(--clr-primary);
+        color: var(--clr-fit);
        
        }
 
@@ -360,8 +364,8 @@
         position: absolute;
         width: 30px;
         height: 30px;
-        border-top: 5px solid var(--clr-new);
-        border-left: 5px solid var(--clr-new);
+        border-top: 5px solid var(--clr-fit);
+        border-left: 5px solid var(--clr-fit);
         top: 8px;
         left: 30rem;
        }
@@ -371,8 +375,8 @@
         position: absolute;
         width: 30px;
         height: 30px;
-        border-bottom: 5px solid var(--clr-new);
-        border-right: 5px solid var(--clr-new);
+        border-bottom: 5px solid var(--clr-);
+        border-right: 5px solid var(--clr-);
         bottom: 8px;
         right: 30rem;
        }
@@ -408,7 +412,7 @@
 
     .about__content{
         width: 100%;
-        background-color: var(--clr-primary);
+        background-color: var(--clr-fit);
         clip-path: circle(120% at 0 0);
        
     }

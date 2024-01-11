@@ -1,8 +1,8 @@
 const mobileMenu = ()=>{
-const menu = document.querySelector('.header__bars')
-const close = document.querySelector('.close')
-const nav = document.querySelector('.nav__menu')
-const mobileLinks = document.querySelectorAll('.header__link-mobile')
+const menu = document.querySelector('.header__bars');
+const close = document.querySelector('.close');
+const nav = document.querySelector('.nav__menu');
+const mobileLinks = document.querySelectorAll('.header__link-mobile');
 
 
 
