@@ -1,4 +1,4 @@
-vlues{
+.vlues{
     padding: 2rem 0;
     margin-top: 4rem;
     background-color: var(--clr-white);
@@ -28,7 +28,7 @@ padding: 2rem 0;
     border-top: 5px solid var(--clr-fit);
     border-left: 5px solid var(--clr-fit);
     top: 10px;
-    left: 5rem;
+    left: 3rem;
    }
 
    .ovlues__title::after{
@@ -39,13 +39,10 @@ padding: 2rem 0;
     border-bottom: 5px solid var(--clr-fit);
     border-right: 5px solid var(--clr-fit);
     bottom: 10px;
-    right: 5rem;
+    right: 3rem;
    }
 
-   .whatwedo__description{
-    text-align: left;
-    margin: 3rem 2rem;
-   }
+  
 
    .vlues__container{
     display: flex;
@@ -71,10 +68,19 @@ padding: 2rem 0;
    .title{
     text-transform: capitalize;
     font-weight: 600;
+    color: var(--clr-fit);
    }
 
-   .numbers{
-    margin: 1rem ;
+   .vs{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+   }
+
+   .vi{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
    }
 
 
@@ -120,10 +126,10 @@ padding: 2rem 0;
             position: absolute;
             width: 30px;
             height: 30px;
-            border-top: 5px solid var(--clr-new);
-            border-left: 5px solid var(--clr-new);
+            border-top: 5px solid var(--clr-fit);
+            border-left: 5px solid var(--clr-fit);
             top: 10px;
-            left: 15rem;
+            left: 10rem;
            }
     
            .ovlues__title::after{
@@ -131,10 +137,10 @@ padding: 2rem 0;
             position: absolute;
             width: 30px;
             height: 30px;
-            border-bottom: 5px solid var(--clr-new);
-            border-right: 5px solid var(--clr-new);
+            border-bottom: 5px solid var(--clr-fit);
+            border-right: 5px solid var(--clr-fit);
             bottom: 10px;
-            right: 15rem;
+            right: 10rem;
            }
 
            /* objective cards*/
@@ -149,7 +155,7 @@ padding: 2rem 0;
            .vlues__card{
             width: 300px;
             height: 300px;
-            border: 1px solid var(--clr-new);
+            border: 1px solid var(--clr-fit);
             z-index: 10;
            
            }
@@ -233,7 +239,7 @@ padding: 2rem 0;
             width: 300px;
             height: 300px;
             border: 1px solid var(--clr-fit);
-            z-index: 10;
+            z-index: 10; 
             margin-top: 3rem;
             
            

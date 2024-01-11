@@ -16,7 +16,7 @@
     text-decoration: none;
     letter-spacing: -0.05em;
     background-color: var(--clr-secondary);
-    color: var(--clr-primary);
+    color: var(--clr-fit);
     padding: 0.5em 1em;
     border-radius: 6px;
     transition: transform 0.3s;

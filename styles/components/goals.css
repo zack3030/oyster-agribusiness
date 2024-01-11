@@ -81,7 +81,7 @@ padding: 2rem 0;
     width: 1px;
     left: 7px;
     top: 0;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-fit);
    }
 
     .goals__circle{
@@ -91,7 +91,7 @@ padding: 2rem 0;
     border-radius: 50%;
     top: 0;
     left: 0;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-fit);
    
    }
 
@@ -102,7 +102,7 @@ padding: 2rem 0;
     border-radius: 50%;
     top: 0;
     left: 0;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-fit);
    
    }
 
@@ -141,7 +141,7 @@ padding: 2rem 0;
     font-weight: 600;
     font-size: var(--size-3xl);
     line-height: 0.9;
-    color: var(--clr-primary);
+    color: var(--clr-fit);
     padding: 2rem 0;
     }
     
@@ -150,8 +150,8 @@ padding: 2rem 0;
         position: absolute;
         width: 30px;
         height: 30px;
-        border-top: 5px solid var(--clr-new);
-        border-left: 5px solid var(--clr-new);
+        border-top: 5px solid var(--clr-fit);
+        border-left: 5px solid var(--clr-fit);
         top: 10px;
         left: 15rem;
        }
@@ -161,8 +161,8 @@ padding: 2rem 0;
         position: absolute;
         width: 30px;
         height: 30px;
-        border-bottom: 5px solid var(--clr-new);
-        border-right: 5px solid var(--clr-new);
+        border-bottom: 5px solid var(--clr-fit);
+        border-right: 5px solid var(--clr-fit);
         bottom: 10px;
         right: 15rem;
        }
